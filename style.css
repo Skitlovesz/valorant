@@ -1,0 +1,182 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Vava";
+    src: url("ValorantFont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-image: linear-gradient(to right, #f55454, #e63f3f);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    padding: 0 10px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.menu {
+    background-color: rgb(223, 0, 0);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #7e5b30a8;
+    text-align: center;
+}
+
+.nome_principal {
+    font-family: "Vava";
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 46px;
+}
+
+#navegacoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+
+#navegacoes li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+#navegacoes li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-family: "Vava";
+}
+
+#navegacoes li a:hover {
+    color: black;
+}
+
+.navegacao_ativa {
+    color: black !important;
+}
+
+.conteudo {
+    margin-top: 113px;
+    background-color: rgba(255, 255, 255, 0.884);
+    padding: 3%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #634622a8;
+    width: 40%;
+}
+
+.bemvindo {
+    font-family: "Vava";
+    text-align: center;
+}
+
+.video {
+    text-align: center;
+}
+p {
+    text-align: justify;
+}
+
+.comprar {
+    background: green;
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.descricao {
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: green;
+}
+
+.card .descricao h4 {
+    padding-top: 7px;
+    color: #1a1a1a;
+    font: 14px;
+}
+img {
+    border-radius: 20px;
+}
+
+iframe {
+    border-radius: 20px;
+}
+.produto {
+    width: 23%;
+    height: fit-content;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    border-radius: 25px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 20px;
+}
+.card {
+    padding: 5px;
+}
+
+.card .descricao span {
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+}
+
+.card .descricao h4 {
+    padding-top: 7px;
+    color: #1a1a1a;
+    font: 14px;
+}
+.descricao h3 {
+    padding-bottom: 8px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    flex-wrap: wrap;
+}
+.fundo-do-rodape {
+    background-color: #111111;
+    height: 300px;
+    width: 100%;
+}
+.rodape {
+    padding: 20px 80px;
+}
+
+.rodape li {
+    list-style: none;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.rodape li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-family: "Vava";
+}
+.imagem {
+    text-align: center;
+}
